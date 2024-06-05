@@ -26,7 +26,7 @@ sudo pacman -S libreoffice-fresh chromium vlc qbittorrent gimp
 sudo pacman -S stow bat fzf zsh
 
 # System theming
-sudo pacman -S nwg-lok
+sudo pacman -S nwg-look
 
 # Software 
 sudo pacman -S rustup pyenv
