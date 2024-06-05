@@ -1,7 +1,7 @@
 # ===========================================
 # Directory structure and other stuff
 # ===========================================
-alias install="sudo pacman -S"
+alias pinstall="sudo pacman -S"
 cd /home/anders
 mkdir -p Git
 mkdir -p .zsh
@@ -9,28 +9,28 @@ mkdir -p .zsh
 
 
 # ===========================================
-# INSTALL
+# pinstall
 # ===========================================
 yay
 
 # hyprland must haves
-install kitty sddm hyprland sddm dunst pipewire wireplumber xdg-desktop-portal-hyprland xdg-desktop-portal-gtk polkit-kde-agent qt5-wayland qt6-wayland
+pinstall kitty sddm hyprland sddm dunst pipewire wireplumber xdg-desktop-portal-hyprland xdg-desktop-portal-gtk polkit-kde-agent qt5-wayland qt6-wayland
 
 # TUI apps
-install zellij gitui
+pinstall zellij gitui
 
 # GUI apps
 yay -S spotify visual-studio-code-bin
-install libreoffice-fresh chromium vlc qbittorrent gimp
+pinstall libreoffice-fresh chromium vlc qbittorrent gimp
 
 # CLI tools
-install stow bat fzf zsh
+pinstall stow bat fzf zsh
 
 # System theming
-install nwg-lok
+pinstall nwg-lok
 
 # Software 
-install rustup pyenv
+pinstall rustup pyenv
 yay -S pyenv-virtualenv
 rustup default stable
 # ===========================================
