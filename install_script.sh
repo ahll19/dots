@@ -24,7 +24,7 @@ yay -S spotify visual-studio-code-bin
 install libreoffice-fresh chromium vlc qbittorrent gimp
 
 # CLI tools
-install stow bat fzf
+install stow bat fzf zsh
 
 # System theming
 install nwg-lok
