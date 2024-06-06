@@ -12,8 +12,8 @@ mkdir -p .zsh
 # ===========================================
 yay
 
-# hyprland must haves
-sudo pacman -S kitty sddm hyprland sddm dunst pipewire wireplumber xdg-desktop-portal-hyprland xdg-desktop-portal-gtk polkit-kde-agent qt5-wayland qt6-wayland
+# Sway
+sudo pacman -S alacritty sway swaylock swayidle swaybg
 
 # TUI apps
 sudo pacman -S zellij gitui
