@@ -79,6 +79,7 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 #     polkit-kde-agent (authentication agent)
 #   make script modular
 #   pyenv autocomplete
+#   switch to alacritty instead of kitty (since it is rust based)
 # To config
 #   hyprland
 #   kitty (catpuccin and general config)
