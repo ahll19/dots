@@ -88,4 +88,5 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 #   https://github.com/swaywm/sway/wiki/Useful-add-ons-for-sway
 #   https://wiki.hyprland.org/Useful-Utilities/
 #   https://wiki.hyprland.org/Configuring/Configuring-Hyprland/
+#   https://www.youtube.com/shorts/iGxpTdy6b-Y
 # ===========================================
