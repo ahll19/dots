@@ -8,6 +8,7 @@ class Installer:
         exit_codes = []
         for package in packages:
             proc = sp.run("pacman -Ss " + package, shell=True, capture_output=True)
+            exit_codes.append(proc.stdout)
 
         return exit_codes
 
