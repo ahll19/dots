@@ -9,6 +9,7 @@ class Installer:
         for package in packages:
             package_str += f"{package} "
         
+        print("pacman -Ss " + package_str)
         return os.system("pacman -Ss " + package_str)
 
 
