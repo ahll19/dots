@@ -1,5 +1,4 @@
 #!/bin/bash
-# TODO: move most of this to premade zshrc file
 chsh -s /bin/zsh
 homectl update --shell=/bin/zsh anders
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

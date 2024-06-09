@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# new todos
+# TODO:consider swayfx
+# TODO: move most of shell setup into premade zshrc file 
+
 bash /home/anders/Git/dots/subscripts/0_setup/setup.sh
 
 bash /home/anders/Git/dots/subscripts/1_installs/desktop_environment.sh
