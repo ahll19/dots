@@ -8,6 +8,7 @@ class Installer:
         for package in packages:
             exit_code = os.system("pacman -Ss " + package)
             if exit_code > 0:
+                print("wtf")
                 return exit_code
 
             return 0
