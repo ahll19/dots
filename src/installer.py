@@ -5,12 +5,12 @@ from typing import List
 class Installer:
     @classmethod
     def _validate_packages_in_ar(cls, packages: List[str]) -> int:
-        package_str = ""
         for package in packages:
-            package_str += f"{package} "
-        
-        print("pacman -Ss " + package_str)
-        return os.system("pacman -Ss " + package_str)
+            exit_code = os.system("pacman -Ss " + package)
+            if exit_code > 0:
+                return exit_code
+
+            return 0
 
 
 if __name__ == "__main__":
