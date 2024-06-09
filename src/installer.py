@@ -13,4 +13,4 @@ class Installer:
 
 
 if __name__ == "__main__":
-    Installer._validate_packages_in_ar(["vlc", "firefox"])
+    print(Installer._validate_packages_in_ar(["vlc", "firefox"]))
