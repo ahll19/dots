@@ -7,7 +7,7 @@ class Installer:
     def _validate_packages_in_ar(cls, packages: List[str]) -> List[int]:
         exit_codes = []
         for package in packages:
-            proc = sp.run("pacman -Ss " + package)
+            proc = sp.run("pacman -Ss " + package, shell=True)
 
         return exit_codes
 
