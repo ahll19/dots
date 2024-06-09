@@ -69,7 +69,6 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 # Notes
 # ===========================================
 # to figure out
-#   sddm
 #   wireplumber
 #   dmenu
 #   GUIs for wifi and bluetooth
