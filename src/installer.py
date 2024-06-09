@@ -1,4 +1,4 @@
-import os
+from subprocess import Popen, PIPE
 from typing import List
 
 
@@ -7,7 +7,7 @@ class Installer:
     def _validate_packages_in_ar(cls, packages: List[str]) -> List[int]:
         exit_codes = []
         for package in packages:
-            exit_codes.append(os.system("pacman -Ss " + package))
+            exit_codes.append(Popen("pacman -Ss " + package, stdout=PIPE).stdout.read())
         
         return exit_codes
 
