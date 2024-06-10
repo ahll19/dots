@@ -3,6 +3,7 @@
 # new todos
 # TODO:consider swayfx
 # TODO: move most of shell setup into premade zshrc file 
+# TODO: REmove config movers and setup stow instead
 
 bash /home/anders/Git/dots/subscripts/0_setup/setup.sh
 
