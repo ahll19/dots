@@ -81,7 +81,6 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 #   switch to alacritty instead of kitty (since it is rust based)
 # To config
 #   hyprland
-#   kitty (catpuccin and general config)
 #   neovim
 #   https://github.com/catppuccin/catppuccin?tab=readme-ov-file
 #   https://github.com/hyprland-community/awesome-hyprland
